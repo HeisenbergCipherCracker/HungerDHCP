@@ -65,7 +65,7 @@ void ctrl_C(int signal){
 char* net_interface;
   int sock;
 
-int main (char *interface){
+int DHCPStarvation(char *interface){
   srand(time(NULL));
 
   signal(SIGINT, ctrl_C);
