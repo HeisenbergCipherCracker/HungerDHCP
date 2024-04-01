@@ -1,5 +1,5 @@
 #include <packet.h>
-#include <socket.h>
+#include <socket.hpp>
 
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -23,7 +23,7 @@
 #include <sstream>
 #include <fstream>
 
-#include <socket.h>
+#include <socket.hpp>
 #include <packet.h>
 
 using namespace std;
