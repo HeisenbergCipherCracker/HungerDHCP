@@ -23,6 +23,9 @@
 #include <sstream>
 #include <fstream>
 
+#include <socket.h>
+#include <packet.h>
+
 using namespace std;
 
 int socket(string port);

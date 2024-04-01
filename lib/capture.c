@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <pcap.h>
+#include <capture.h>
 
 // Ethernet header structure
 struct ethhdr {
